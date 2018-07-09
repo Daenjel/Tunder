@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tunder</string>
+    <string-array name="Names">
+        <item>Daenjel</item>
+        <item>Daen</item>
+        <item>jel</item>
+        <item>Danjel</item>
+        <item>Denje</item>
+        <item>anjel</item>
+    </string-array>
+    <integer-array name="Age">
+        <item>45</item>
+        <item>78</item>
+        <item>59</item>
+        <item>12</item>
+        <item>36</item>
+        <item>18</item>
+    </integer-array>
+    <string-array name="Occupation">
+        <item>Daenjel</item>
+        <item>Daen</item>
+        <item>jel</item>
+        <item>Danjel</item>
+        <item>Denje</item>
+        <item>anjel</item>
+    </string-array>
+</resources>

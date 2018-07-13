@@ -62,7 +62,7 @@ public class NewsFeed extends AppCompatActivity implements View.OnClickListener{
         dialog.setNegativeButton("Reject", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Snackbar.make(view, " Request not sent ", Snackbar.LENGTH_LONG).show();
+                Toast.makeText(NewsFeed.this,"Request not Sent",Toast.LENGTH_LONG).show();
             }
         });
         dialog.setPositiveButton("Send", new DialogInterface.OnClickListener() {

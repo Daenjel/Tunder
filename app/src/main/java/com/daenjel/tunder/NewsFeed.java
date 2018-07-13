@@ -59,7 +59,12 @@ public class NewsFeed extends AppCompatActivity implements View.OnClickListener{
         dialog.setIcon(R.mipmap.ic_launcher);
         dialog.setTitle("Awesome you found your match");
         dialog.setMessage("Do you wish to send them a match request?");
-        dialog.setNegativeButton("Reject",null);
+        dialog.setNegativeButton("Reject", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Snackbar.make(view, " Request not sent ", Snackbar.LENGTH_LONG).show();
+            }
+        });
         dialog.setPositiveButton("Send", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

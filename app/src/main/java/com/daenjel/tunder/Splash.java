@@ -19,7 +19,7 @@ public class Splash extends AppCompatActivity {
                 }catch (Exception e){
                     Toast.makeText(Splash.this,e.getMessage(),Toast.LENGTH_LONG).show();
                 }finally {
-                    startActivity(new Intent(Splash.this,MainActivity.class));
+                    startActivity(new Intent(Splash.this,NewsFeed.class));
                     finish();
                 }
             }

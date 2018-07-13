@@ -1,27 +1,55 @@
 <resources>
     <string name="app_name">Tunder</string>
     <string-array name="Names">
-        <item>Daenjel</item>
-        <item>Daen</item>
-        <item>jel</item>
-        <item>Danjel</item>
-        <item>Denje</item>
-        <item>anjel</item>
+        <item>Ngige Ann</item>
+        <item>Njenga Dan</item>
+        <item>Eric Maina</item>
+        <item>Kangethe Lee</item>
+        <item>Muthoni Lydia</item>
+        <item>Kamau Marvins</item>
+        <item>Ngoko Morande</item>
+        <item>Jean Agape</item>
+        <item>Mukina Tinnah</item>
+        <item>Nandabi Nooman</item>
+        <item>Wanderi Benard</item>
+        <item>Wright</item>
     </string-array>
     <integer-array name="Age">
-        <item>45</item>
-        <item>78</item>
-        <item>59</item>
-        <item>12</item>
-        <item>36</item>
-        <item>18</item>
+        <item>24</item>
+        <item>25</item>
+        <item>22</item>
+        <item>22</item>
+        <item>24</item>
+        <item>25</item>
+        <item>24</item>
+        <item>20</item>
+        <item>21</item>
+        <item>23</item>
+        <item>23</item>
+        <item>21</item>
     </integer-array>
     <string-array name="Occupation">
-        <item>Daenjel</item>
-        <item>Daen</item>
-        <item>jel</item>
-        <item>Danjel</item>
-        <item>Denje</item>
-        <item>anjel</item>
+        <item>University of Daystar</item>
+        <item>University of USIU</item>
+        <item>University of KeMu</item>
+        <item>Asst Governor, Kiambu</item>
+        <item>University of Moi</item>
+        <item>University of Nairobi</item>
+        <item>University of Strathmore</item>
+        <item>Oracle, Inc</item>
+        <item>University of Riara</item>
+        <item>Rugby Player</item>
+        <item>Business Man</item>
+        <item>Music Producer</item>
     </string-array>
+    <string-array name="spinner_items">
+        <item>-Occupation-</item>
+        <item>-Student-</item>
+        <item>-Employee-</item>
+        <item>-C.E.O-</item>
+        <item>-Artist-</item>
+        <item>-Music-</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

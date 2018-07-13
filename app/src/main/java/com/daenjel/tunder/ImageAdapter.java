@@ -18,7 +18,7 @@ public class ImageAdapter extends PagerAdapter {
     private String Myname[],Myoccupy[];
     private int Myage[];
     private LayoutInflater inflater;
-    public ImageAdapter(Context context,ArrayList<Integer> ImageArray,String[] myname,int[] myage,String[] myoccupy){
+    public ImageAdapter(Context context,ArrayList<Integer> ImageArray,String [] myname,int[] myage,String[]myoccupy){
         this.context = context;
         this.ImageArray = ImageArray;
         this.Myname = myname;
@@ -46,9 +46,9 @@ public class ImageAdapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         View view = inflater.inflate(R.layout.cardview,container,false);
         ImageView imageView = view.findViewById(R.id.image);
-        TextView name = view.findViewById(R.id.Name);
-        TextView age = view.findViewById(R.id.Age);
-        TextView occupy = view.findViewById(R.id.Occupy);
+        TextView name = view.findViewById(R.id.txtname);
+        TextView age = view.findViewById(R.id.txtage);
+        TextView occupy = view.findViewById(R.id.occupation);
 
         imageView.setImageResource(ImageArray.get(position));
         name.setText(Myname[position]);
